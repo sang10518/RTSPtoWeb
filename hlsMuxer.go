@@ -99,6 +99,8 @@ func (element *MuxerHLS) UpdateIndexM3u8() {
 		}
 	}
 	header += "#EXTM3U\n"
+	updatetime := time.Now().UnixNano() / int64(time.Millisecond)
+	header += "#UPDATETIME: " + strconv.FormatInt(updatetime, 10) + "\n"
 	header += "#EXT-X-TARGETDURATION:" + strconv.Itoa(int(math.Round(segmentTarget.Seconds()))) + "\n"
 	header += "#EXT-X-VERSION:7\n"
 	header += "#EXT-X-INDEPENDENT-SEGMENTS\n"

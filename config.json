@@ -33,35 +33,35 @@
       "channels": {
         "360-stadium-1": {
           "debug": true,
-          "url": "rtsp://10.0.2.183:8554",
+          "url": "rtsp://192.168.4.28:8554",
           "on_demand": false,
           "status": 0,
           "audio": false
         },
         "360-stadium-2": {
           "debug": true,
-          "url": "rtsp://10.0.2.140:8554",
+          "url": "rtsp://192.168.4.89:8554",
           "on_demand": false,
           "status": 0,
           "audio": false
         },
         "360-stadium-3": {
           "debug": true,
-          "url": "rtsp://10.0.2.198:8554",
+          "url": "rtsp://192.168.4.138:8554",
           "on_demand": false,
           "status": 0,
           "audio": false
         },
         "360-stadium-4": {
           "debug": true,
-          "url": "rtsp://10.0.2.140:8554",
+          "url": "rtsp://192.168.4.94:8554",
           "on_demand": false,
           "status": 0,
           "audio": false
         },
         "360-warmup-1": {
           "debug": true,
-          "url": "rtsp://10.0.2.140:8554",
+          "url": "rtsp://192.168.4.246:8554",
           "on_demand": false,
           "status": 0,
           "audio": false
